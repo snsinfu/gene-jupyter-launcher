@@ -1,6 +1,6 @@
 #!/bin/sh
 
-jupyterlab labextension install         \
+jupyter labextension install            \
     @jupyterlab/toc                     \
     @jupyter-widgets/jupyterlab-manager \
     @lckr/jupyterlab_variableinspector  \
