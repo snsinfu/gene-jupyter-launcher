@@ -1,0 +1,42 @@
+name: data-analysis
+
+dependencies:
+  - defaults::python=3.7
+  - defaults::biopython
+  - defaults::cython
+  - defaults::gensim
+  - defaults::h5py
+  - defaults::joblib
+  - defaults::jupyterlab
+  - defaults::matplotlib
+  - defaults::msgpack-python
+  - defaults::nodejs
+  - defaults::numba
+  - defaults::numpy
+  - defaults::pandas
+  - defaults::pillow
+  - defaults::pyspark
+  - defaults::pyqt
+  - defaults::pyyaml
+  - defaults::qt
+  - defaults::requests
+  - defaults::scikit-image
+  - defaults::scikit-learn
+  - defaults::scipy
+  - defaults::seaborn
+  - defaults::sqlalchemy
+  - defaults::statsmodels
+  - defaults::tensorflow
+  - conda-forge::ipympl
+  - conda-forge::jupyter_nbextensions_configurator
+  - conda-forge::hyperopt
+  - conda-forge::scikit-optimize
+  - conda-forge::umap-learn
+  - intel::mkl
+  - bioconda::cooler
+  - bioconda::hic2cool
+  - pip
+  - pip:
+    - jupyter_tensorboard
+    - nbresuse
+    - optuna
